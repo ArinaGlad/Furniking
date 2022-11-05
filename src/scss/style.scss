@@ -1,5 +1,8 @@
 @import "fonts";
 @import "../../node_modules/normalize.css/normalize";
+
+
+
 @import "./blocks/logo/logo";
 @import "./blocks/page/page";
 @import "./blocks/header/header";
@@ -13,6 +16,34 @@
 @import "./blocks/form-search/__button/form-search__button";
 
 
+@import "./blocks/feature/__items/feature__items";
+@import "./blocks/feature/__item/feature__item";
+@import "./blocks/feature/__item-img/feature__item-img";
+@import "./blocks/feature/__items-header/feature__items-header";
+@import "./blocks/feature/__items-descr/feature__items-descr";
+
+@import "./blocks/offer/offer";
+@import "./blocks/offer/__item-1/offer__item-1";
+@import "./blocks/offer/__header/offer__header";
+@import "./blocks/offer/__price/offer__price";
+@import "./blocks/offer/__link/offer__link";
 
 
 
+* {
+    box-sizing: border-box;
+}
+
+.offer__item-1 {
+    background: url('@img/furniture__offer.jpg') center center/cover no-repeat;
+}
+
+.offer__item-2 {
+    background: url('@img/offer-2.jpg') center center/cover no-repeat;
+    padding: 49px 0 0 31px;
+}
+
+.offer__item-3 {
+    background: url('@img/offer-3.jpg') center center/cover no-repeat;
+    padding: 49px 0 0 31px;
+}
