@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+    @@include('html/head.html', {
+        "title": "Ofixe Furniture",
+    })
+<body>
+    
+    <div class="page">
+        <header class="header">
+            <a href="#" class="logo"><img src="../images/icons/icons.svg#Logo" alt="logo"></a>
+            <form action="#" class="form-search">
+                <input type="text" placeholder="текст" class="form-search__input">
+                <select name="search" class="form-search__select">
+                    <option disabled="disabled" selected="selected" hidden>Categories</option>
+                        <optgroup label="Categories" selected>
+                        <option value="yandex">123 <img src="../images/icons/icons.svg#arrow_down" alt=""></option>
+                        <option value="some-search">Другой поисковик</option>
+                    </optgroup>
+                </select>
+                <button type="submit" class="form-search__button"><img src="../images/icons/icons.svg#search" alt="search"></button>
+            </form>
+    
+            <div class="header__button-list">
+                <button type="button" class="header__button"><img class="header__button-img" src="../images/icons/icons.svg#icon_shop" alt="icon-shop"></button>
+                <button type="button" class="header__button"><img class="header__button-img" src="../images/icons/icons.svg#notification" alt="icon-shop"></button>
+                <button type="button" class="header__button"><img class="header__button-img" src="../images/icons/icons.svg#account" alt="icon-shop"></button>
+            </div>
+        </header>
+        <main>
+            
+        </main>
+    </div>
+    
+    
+    <script src="js/app.min.js"></script>
+</body>
+</html>
