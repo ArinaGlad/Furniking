@@ -1,0 +1,19 @@
+.testimonials__item {
+    position: relative;
+    width: 816px;
+    background: #F8FAFB;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    padding: 80px 125px 47px;
+
+    img {
+        position: absolute;
+        display: block;
+        width: 88px;
+        height: 88px;
+        border-radius: 50%;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}

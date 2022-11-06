@@ -42,6 +42,23 @@
 
 @import "./blocks/section-header/section-header";
 
+@import "./blocks/blog/__items/blog__items";
+@import "./blocks/blog/__item-header/blog__item-header";
+@import "./blocks/blog/__tag/blog__tag";
+@import "./blocks/blog/__date/blog__date";
+@import "./blocks/blog/__item/blog__item";
+@import "./blocks/blog/__link/blog__link";
+
+@import "./blocks/arrow/arrow";
+@import "./blocks/arrow/__left/arrow__left";
+@import "./blocks/arrow/__right/arrow__right";
+
+@import "./blocks/testimonials/__wrapper/testimonials__wrapper";
+@import "./blocks/testimonials/__item/testimonials__item";
+@import "./blocks/testimonials/__descr/testimonials__descr";
+@import "./blocks/testimonials/__autor/testimonials__autor";
+@import "./blocks/testimonials/__autor-desc/testimonials__autor-desc";
+
 * {
     box-sizing: border-box;
 }
@@ -66,4 +83,20 @@
 
 .special__item-right {
     background: url('@img/office__item_2.jpg') center center/cover no-repeat;
+}
+
+.blog__item-1 {
+    background: url('@img/blog-1.jpg') center center/cover no-repeat;
+}
+
+.blog__item-2 {
+    background: url('@img/blog-2.jpg') center center/cover no-repeat;
+}
+
+.blog__item-3 {
+    background: url('@img/blog-3.jpg') center center/cover no-repeat;
+}
+
+.blog__item-4 {
+    background: url('@img/blog-4.jpg') center center/cover no-repeat;
 }
