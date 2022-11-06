@@ -1,0 +1,21 @@
+.special__time-item {
+    width: 40px;
+    height: 40px;
+    background: #7AC751;
+    border-radius: 50%;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 6px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.005em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 7px 0;
+    span {
+        font-weight: 500;
+        font-size: 14px;
+        display: block;
+            }
+}

@@ -623,6 +623,163 @@ template {
   cursor: pointer;
 }
 
+.special__items {
+  list-style-type: none;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  margin: 0;
+  padding: 60px 0 0 0;
+}
+
+.special__item {
+  /* background: url('@img/Rectangle 43.jpg') center center/cover no-repeat; */
+  padding-left: 24px;
+}
+
+.special__discount {
+  width: 64px;
+  height: 23px;
+  background: #00B7F1;
+  border-radius: 0px 0px 0px 5px;
+  margin-left: auto;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.008em;
+  color: #FFFFFF;
+}
+
+.special__item-header {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 1.27;
+  color: #555555;
+  margin: 5px 0 0 0;
+  max-width: 227px;
+}
+
+.special__descr {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.5;
+  color: #757575;
+  max-width: 227px;
+  margin: 11px 0 20px 0;
+}
+
+.special__time {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 214px;
+}
+
+.special__price-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 214px;
+  margin-bottom: 29px;
+}
+
+.special__price {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.005em;
+  color: #7AC751;
+  margin-right: 7px;
+}
+
+.special__price-before {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.005em;
+  text-decoration-line: line-through;
+  color: #CCCCCC;
+  margin-right: auto;
+}
+
+.special__button {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 26px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #FFFFFF;
+  background: #7AC751;
+  border-radius: 2px;
+  padding: 0 10px;
+  border: none;
+}
+
+.special__time-item {
+  width: 40px;
+  height: 40px;
+  background: #7AC751;
+  border-radius: 50%;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 6px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.005em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding: 7px 0;
+}
+
+.special__time-item span {
+  font-weight: 500;
+  font-size: 14px;
+  display: block;
+}
+
+.section-header {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.25;
+  text-transform: uppercase;
+  color: #555555;
+  text-align: center;
+  margin: 0;
+}
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -645,8 +802,18 @@ template {
   padding: 49px 0 0 31px;
 }
 
+.no-webp .special__item-left {
+  background: url("../images/special__item.jpg") center center/cover no-repeat; }
+
+.no-webp .special__item-right {
+  background: url("../images/office__item_2.jpg") center center/cover no-repeat; }
+
 .webp .offer__item-1 { background: url(../images/furniture__offer.webp) center center/cover no-repeat; }
 
 .webp .offer__item-2 { background: url(../images/offer-2.webp) center center/cover no-repeat; }
 
 .webp .offer__item-3 { background: url(../images/offer-3.webp) center center/cover no-repeat; }
+
+.webp .special__item-left { background: url(../images/special__item.webp) center center/cover no-repeat; }
+
+.webp .special__item-right { background: url(../images/office__item_2.webp) center center/cover no-repeat; }

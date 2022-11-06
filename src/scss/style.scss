@@ -28,7 +28,19 @@
 @import "./blocks/offer/__price/offer__price";
 @import "./blocks/offer/__link/offer__link";
 
+@import "./blocks/special/__items/special__items";
+@import "./blocks/special/__item/special__item";
+@import "./blocks/special/__discount/special__discount";
+@import "./blocks/special/__item-header/special__item-header";
+@import "./blocks/special/__descr/special__descr";
+@import "./blocks/special/__time/special__time";
+@import "./blocks/special/__price-wrapper/special__price-wrapper";
+@import "./blocks/special/__price/special__price";
+@import "./blocks/special/__price-before/special__price-before";
+@import "./blocks/special/__button/special__button";
+@import "./blocks/special/__time-item/special__time-item";
 
+@import "./blocks/section-header/section-header";
 
 * {
     box-sizing: border-box;
@@ -46,4 +58,12 @@
 .offer__item-3 {
     background: url('@img/offer-3.jpg') center center/cover no-repeat;
     padding: 49px 0 0 31px;
+}
+
+.special__item-left {
+    background: url('@img/special__item.jpg') center center/cover no-repeat;
+}
+
+.special__item-right {
+    background: url('@img/office__item_2.jpg') center center/cover no-repeat;
 }
