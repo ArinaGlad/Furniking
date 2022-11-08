@@ -2,4 +2,18 @@
     width: 123px;
     height: 100%;
     box-sizing: border-box;
+    border: none;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.21;
+    color: #555555;
+    padding-right: 22px;
+    padding-left: 9px;
+    appearance: none;
+}
+
+.form-search__select:focus {
+    outline: none;
 }

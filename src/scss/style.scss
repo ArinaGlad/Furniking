@@ -1,11 +1,18 @@
 @import "fonts";
 @import "../../node_modules/normalize.css/normalize";
 
+@import "./blocks/container/container";
 
+@import "./blocks/language/language";
 
 @import "./blocks/logo/logo";
 @import "./blocks/page/page";
-@import "./blocks/header/header";
+@import "./blocks/header/__top/header__top";
+@import "./blocks/header/__login/header__login";
+@import "./blocks/header/__divider/header__divider";
+@import "./blocks/header/__bottom/header__bottom";
+@import "./blocks/header/__top-items/header__top-items";
+@import "./blocks/header/__top-welcome/header__top-welcome";
 @import "./blocks/header/__button/header__button";
 @import "./blocks/header/__button-list/header__button-list";
 @import "./blocks/header/__button-img/header__button-img";
@@ -28,6 +35,7 @@
 @import "./blocks/offer/__price/offer__price";
 @import "./blocks/offer/__link/offer__link";
 
+@import "./blocks/special/special";
 @import "./blocks/special/__items/special__items";
 @import "./blocks/special/__item/special__item";
 @import "./blocks/special/__discount/special__discount";
@@ -42,6 +50,7 @@
 
 @import "./blocks/section-header/section-header";
 
+@import "./blocks/blog/blog";
 @import "./blocks/blog/__items/blog__items";
 @import "./blocks/blog/__item-header/blog__item-header";
 @import "./blocks/blog/__tag/blog__tag";
@@ -53,11 +62,32 @@
 @import "./blocks/arrow/__left/arrow__left";
 @import "./blocks/arrow/__right/arrow__right";
 
+@import "./blocks/testimonials/testimonials";
 @import "./blocks/testimonials/__wrapper/testimonials__wrapper";
 @import "./blocks/testimonials/__item/testimonials__item";
 @import "./blocks/testimonials/__descr/testimonials__descr";
 @import "./blocks/testimonials/__autor/testimonials__autor";
 @import "./blocks/testimonials/__autor-desc/testimonials__autor-desc";
+
+@import "./blocks/footer/__columns/footer__columns";
+@import "./blocks/footer/__column-social/footer__column-social";
+@import "./blocks/footer/__descr/footer__descr";
+@import "./blocks/footer/__social-links/footer__social-links";
+@import "./blocks/footer/__social-link/footer__social-link";
+@import "./blocks/footer/__column-header/footer__column-header";
+@import "./blocks/footer/__column-links/footer__column-links";
+@import "./blocks/footer/__column-link/footer__column-link";
+@import "./blocks/footer/__divider/footer__divider";
+@import "./blocks/footer/__down/footer__down";
+@import "./blocks/footer/__down-item/footer__down-item";
+
+@import "./blocks/primary/primary__titles";
+@import "./blocks/primary/__menu-title/primary__menu-title";
+@import "./blocks/primary/__top/primary__top";
+
+@import "./blocks/navigation/navigation";
+@import "./blocks/navigation/__item/navigation__item";
+
 
 * {
     box-sizing: border-box;
@@ -100,3 +130,8 @@
 .blog__item-4 {
     background: url('@img/blog-4.jpg') center center/cover no-repeat;
 }
+
+/* .form-search__select {
+    background-image: url('@img/icons.svg#twitter');
+    background-size: 16px 16px;
+} */

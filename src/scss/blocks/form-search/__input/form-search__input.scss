@@ -1,6 +1,24 @@
 .form-search__input {
     width: 403px;
     height: 100%;
-    /* border: none; */
+    border: none;
+    border-right: 1.5px solid rgba(227, 227, 227, 0.78);
     box-sizing: border-box;
+    outline: none;
+    padding-left: 25px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.21;
+    color: #555555;
+}
+
+.form-search__input::placeholder {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #B0B0B0;
 }

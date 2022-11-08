@@ -7,173 +7,269 @@
     
     <div class="page">
         <header class="header">
-            <a href="#" class="logo"><img src="../images/icons/icons.svg#Logo" alt="logo"></a>
-            <form action="#" class="form-search">
-                <input type="text" placeholder="текст" class="form-search__input">
-                <select name="search" class="form-search__select">
-                    <option disabled="disabled" selected="selected" hidden>Categories</option>
-                        <optgroup label="Categories" selected>
-                        <option value="yandex">123 <img src="../images/icons/icons.svg#arrow_down" alt=""></option>
-                        <option value="some-search">Другой поисковик</option>
-                    </optgroup>
-                </select>
-                <button type="submit" class="form-search__button"><img src="../images/icons/icons.svg#search" alt="search"></button>
-            </form>
-    
-            <div class="header__button-list">
-                <button type="button" class="header__button"><img class="header__button-img" src="../images/icons/icons.svg#icon_shop" alt="icon-shop"></button>
-                <button type="button" class="header__button"><img class="header__button-img" src="../images/icons/icons.svg#notification" alt="icon-shop"></button>
-                <button type="button" class="header__button"><img class="header__button-img" src="../images/icons/icons.svg#account" alt="icon-shop"></button>
+            <div class="header__top">
+                <div class="container">
+                    <div class="header__top-items">
+                        <p class="header__top-welcome">Welcome to our online shop</p>
+                        <form action="#" class="language">
+                            <select name="search" class="">
+                                    <option value="yandex">English (USD)</option>
+                                    <option value="some-search">Русский (РУС)</option>
+                            </select>
+                        </form>
+                        <div class="header__divider"></div>
+                        <button class="header__login">Login or Sign up</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="header__bottom container">
+                    <a href="#" class="logo"><img src="../images/icons/icons.svg#Logo" alt="logo"></a>
+                    <form action="#" class="form-search">
+                        <input type="text" placeholder="Search here" class="form-search__input">
+                        <select name="search" class="form-search__select">
+                            <option disabled="disabled" selected="selected" hidden >Categories</option>
+                                <optgroup label="Categories" selected>
+                                <option value="yandex">Furniture<img src="../images/icons/icons.svg#arrow_down" alt=""></option>
+                                <option value="some-search">Chairs</option>
+                            </optgroup>
+                        </select>
+                        <button type="submit" class="form-search__button"><img src="../images/icons/icons.svg#search" alt="search"></button>
+                    </form>
+            
+                    <div class="header__button-list">
+                        <button type="button" class="header__button"><img class="header__button-img" src="../images/icons/icons.svg#icon_shop" alt="icon-shop"></button>
+                        <button type="button" class="header__button"><img class="header__button-img" src="../images/icons/icons.svg#notification" alt="icon-shop"></button>
+                        <button type="button" class="header__button"><img class="header__button-img" src="../images/icons/icons.svg#account" alt="icon-shop"></button>
+                    </div>
+                
             </div>
         </header>
         <main>
-            
-            <section class="feature">
-                <ul class="feature__items">
-                    <li class="feature__item"><img class="feature__item-img" src="../images/icons/icons.svg#free-delivery_1" alt="free delivery">
-                    <div class="feature__items-text">
-                        <p class="feature__items-header">Free Shipping</p>
-                        <p class="feature__items-descr">Orders over $100</p>
+            <section class="primary">
+                <div class="primary__top">
+                    <div class="container primary__titles">
+                        <div class="primary__menu-title">ALL COLLECTIONS</div>
+                        <nav>
+                            <ul class="navigation">
+                                <li><a class="navigation__item" href="#">HOME</a></li>
+                                <li><a class="navigation__item" href="#">SHOP</a></li>
+                                <li><a class="navigation__item" href="#">BLOG</a></li>
+                                <li><a class="navigation__item" href="#">ABOUT</a></li>
+                                <li><a class="navigation__item" href="#">CONTACT US</a></li>
+                            
+                            </ul>
+                        </nav>
                     </div>
-                    </li>
-
-                    <li class="feature__item"><img class="feature__item-img" src="../images/icons/icons.svg#present" alt="present">
-                        <div class="feature__items-text">
-                            <p class="feature__items-header">Smart Gift Card</p>
-                            <p class="feature__items-descr">Buy $1000 to get card</p>
-                        </div>
-                    </li>
-
-                    <li class="feature__item"><img class="feature__item-img" src="../images/icons/icons.svg#wallet" alt="wallet">
-                        <div class="feature__items-text">
-                            <p class="feature__items-header">24/7 Support</p>
-                            <p class="feature__items-descr">Quick support</p>
-                        </div>
-                    </li>
-
-                    <li class="feature__item"><img class="feature__item-img" src="../images/icons/icons.svg#support" alt="support">
+                </div>
+            </section>
+            <div class="container">
+                <section class="feature">
+                    <ul class="feature__items">
+                        <li class="feature__item"><img class="feature__item-img" src="../images/icons/icons.svg#free-delivery_1" alt="free delivery">
                         <div class="feature__items-text">
                             <p class="feature__items-header">Free Shipping</p>
                             <p class="feature__items-descr">Orders over $100</p>
                         </div>
-                    </li>
-                </ul>
-            </section>
-
-            <section class="offer">
-                <div class="offer__item offer__item-1">
-                    <h2 class="offer__header">Modern Furniture Collections</h2>
-                    <p class="offer__price">Starting from <span>$500</span></p>
-                    <a href="#" class="offer__link">Read more &rarr;</a>
-                </div>
-                <div class="offer__item offer__item-2">
-                    <h2 class="offer__header">Geometric Bookcase</h2>
-                    <p class="offer__price">Up to <span>20%</span> discount</p>
-                    <a href="#" class="offer__link">Read more &rarr;</a>
-                </div>
-                <div class="offer__item offer__item-3">
-                    <h2 class="offer__header">Minimal Sofa collections</h2>
-                    <p class="offer__price">Sale upto <span>40%</span> discount</p>
-                    <a href="#" class="offer__link">Read more &rarr;</a>
-                </div>
-            </section>
-
-            <section class="special">
-                <h2 class="section-header">SPECIAL OFFER</h2>
-                <ul class="special__items">
-                    <li class="special__item special__item-left">
-                        <div class="special__discount">40% off</div>
-                        <h3 class="special__item-header">Living Room Furniture</h3>
-                        <p class="special__descr">You don't have a chair. Are you ready for growth? Shop with us 40% discount!</p>
-                        <div class="special__price-wrapper">
-                            <div class="special__price">$150</div>
-                            <div class="special__price-before">$250</div>
-                            <button class="special__button">SHOP NOW</button>
-                        </div>
-                        <div class="special__time">
-                            <div class="special__time-item special__day"><span>10</span>days</div>
-                            <div class="special__time-item special__hrs"><span>15</span>hrs</div>
-                            <div class="special__time-item special__min"><span>30</span>min</div>
-                            <div class="special__time-item special__secs"><span>22</span>secs</div>
-                        </div>
-                    </li>
-                    <li class="special__item special__item-right">
-                        <div class="special__discount">50% off</div>
-                        <h3 class="special__item-header">Modern chair</h3>
-                        <p class="special__descr">Hot chairs of the modern era are now available in our stock.</p>
-                        <div class="special__price-wrapper">
-                            <div class="special__price">$75</div>
-                            <div class="special__price-before">$150</div>
-                            <button class="special__button">SHOP NOW</button>
-                        </div>
-                        <div class="special__time">
-                            <div class="special__time-item special__day"><span>10</span>days</div>
-                            <div class="special__time-item special__hrs"><span>15</span>hrs</div>
-                            <div class="special__time-item special__min"><span>30</span>min</div>
-                            <div class="special__time-item special__secs"><span>22</span>secs</div>
-                        </div>
-                    </li>
-                </ul>
-            </section>
-
-            <section class="testimonials">
-                <h2 class="section-header">What Our Customer Says</h2>
-                <div class="testimonials__wrapper">
-                    <a href="#"><div class="arrow arrow__left"></div></a> 
-                    <div class="testimonials__item">
-                        <img src="@img/testimonials__autor_1.jpg" alt="dom">
-                        <p class="testimonials__descr">I like Furniking.com and as compared to other company it's polices and customers support is very good easy to reach., also many time they unable to delivered. The ultricies are pregnant while the quis is suspended. Risus commodo viverra maecenas accumsan lacus vel facilisist amet.</p>
-                        <div class="testimonials__autor">Angelina Joly</div>
-                        <div class="testimonials__autor-desc">Co-founder</div>
+                        </li>
+    
+                        <li class="feature__item"><img class="feature__item-img" src="../images/icons/icons.svg#present" alt="present">
+                            <div class="feature__items-text">
+                                <p class="feature__items-header">Smart Gift Card</p>
+                                <p class="feature__items-descr">Buy $1000 to get card</p>
+                            </div>
+                        </li>
+    
+                        <li class="feature__item"><img class="feature__item-img" src="../images/icons/icons.svg#wallet" alt="wallet">
+                            <div class="feature__items-text">
+                                <p class="feature__items-header">24/7 Support</p>
+                                <p class="feature__items-descr">Quick support</p>
+                            </div>
+                        </li>
+    
+                        <li class="feature__item"><img class="feature__item-img" src="../images/icons/icons.svg#support" alt="support">
+                            <div class="feature__items-text">
+                                <p class="feature__items-header">Free Shipping</p>
+                                <p class="feature__items-descr">Orders over $100</p>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+    
+                <section class="offer">
+                    <div class="offer__item offer__item-1">
+                        <h2 class="offer__header">Modern Furniture Collections</h2>
+                        <p class="offer__price">Starting from <span>$500</span></p>
+                        <a href="#" class="offer__link">Read more &rarr;</a>
                     </div>
-                    <a href=""><div class="arrow arrow__right"></div></a>
-                </div>
-            </section>
-                
-            <section class="blog">
-                <h2 class="section-header">Our Latest Articles</h2>
-                <ul class="blog__items">
-                    <li class="blog__item blog__item-1">
-                        <a href="#">
-                            <div class="blog__tag"><img src="../images/icons/icons.svg#tag" alt="tag">Furniture</div>
-                            <div class="blog__date">23 September 2022</div>
-                            <h3 class="blog__item-header">Begineer guide buying minimal sofa</h3>
-                            <div class="blog__link">Read more &rarr;</div>
-                        </a>
-                    </li>
-
-                    <li class="blog__item blog__item-2">
-                        <a href="#">
-                            <div class="blog__tag"><img src="../images/icons/icons.svg#tag" alt="tag">TABLE</div>
-                            <div class="blog__date">23 September 2022</div>
-                            <h3 class="blog__item-header">Buying best minimal computer table</h3>
-                            <div class="blog__link">Read more &rarr;</div>
-                        </a>
-                    </li>
-
-                    <li class="blog__item blog__item-3">
-                        <a href="#">
-                            <div class="blog__tag"><img src="../images/icons/icons.svg#tag" alt="tag">Bench</div>
-                            <div class="blog__date">23 September 2022</div>
-                            <h3 class="blog__item-header">How to choose best modern bench</h3>
-                            <div class="blog__link">Read more &rarr;</div>
-                        </a>
-                    </li>
-
-                    <li class="blog__item blog__item-4">
-                        <a href="#">
-                            <div class="blog__tag"><img src="../images/icons/icons.svg#tag" alt="tag">Chair</div>
-                            <div class="blog__date">23 September 2022</div>
-                            <h3 class="blog__item-header">Best Summer Outfit Style in this Country</h3>
-                            <div class="blog__link">Read more &rarr;</div>
-                        </a>
-                    </li>
-
-                </ul>
-            </section>
+                    <div class="offer__item offer__item-2">
+                        <h2 class="offer__header">Geometric Bookcase</h2>
+                        <p class="offer__price">Up to <span>20%</span> discount</p>
+                        <a href="#" class="offer__link">Read more &rarr;</a>
+                    </div>
+                    <div class="offer__item offer__item-3">
+                        <h2 class="offer__header">Minimal Sofa collections</h2>
+                        <p class="offer__price">Sale upto <span>40%</span> discount</p>
+                        <a href="#" class="offer__link">Read more &rarr;</a>
+                    </div>
+                </section>
+    
+                <section class="special">
+                    <h2 class="section-header">SPECIAL OFFER</h2>
+                    <ul class="special__items">
+                        <li class="special__item special__item-left">
+                            <div class="special__discount">40% off</div>
+                            <h3 class="special__item-header">Living Room Furniture</h3>
+                            <p class="special__descr">You don't have a chair. Are you ready for growth? Shop with us 40% discount!</p>
+                            <div class="special__price-wrapper">
+                                <div class="special__price">$150</div>
+                                <div class="special__price-before">$250</div>
+                                <button class="special__button">SHOP NOW</button>
+                            </div>
+                            <div class="special__time">
+                                <div class="special__time-item special__day"><span>10</span>days</div>
+                                <div class="special__time-item special__hrs"><span>15</span>hrs</div>
+                                <div class="special__time-item special__min"><span>30</span>min</div>
+                                <div class="special__time-item special__secs"><span>22</span>secs</div>
+                            </div>
+                        </li>
+                        <li class="special__item special__item-right">
+                            <div class="special__discount">50% off</div>
+                            <h3 class="special__item-header">Modern chair</h3>
+                            <p class="special__descr">Hot chairs of the modern era are now available in our stock.</p>
+                            <div class="special__price-wrapper">
+                                <div class="special__price">$75</div>
+                                <div class="special__price-before">$150</div>
+                                <button class="special__button">SHOP NOW</button>
+                            </div>
+                            <div class="special__time">
+                                <div class="special__time-item special__day"><span>10</span>days</div>
+                                <div class="special__time-item special__hrs"><span>15</span>hrs</div>
+                                <div class="special__time-item special__min"><span>30</span>min</div>
+                                <div class="special__time-item special__secs"><span>22</span>secs</div>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+    
+                <section class="testimonials">
+                    <h2 class="section-header">What Our Customer Says</h2>
+                    <div class="testimonials__wrapper">
+                        <a href="#"><div class="arrow arrow__left"></div></a> 
+                        <div class="testimonials__item">
+                            <img src="@img/testimonials__autor_1.jpg" alt="dom">
+                            <p class="testimonials__descr">I like Furniking.com and as compared to other company it's polices and customers support is very good easy to reach., also many time they unable to delivered. The ultricies are pregnant while the quis is suspended. Risus commodo viverra maecenas accumsan lacus vel facilisist amet.</p>
+                            <div class="testimonials__autor">Angelina Joly</div>
+                            <div class="testimonials__autor-desc">Co-founder</div>
+                        </div>
+                        <a href=""><div class="arrow arrow__right"></div></a>
+                    </div>
+                </section>
+                    
+                <section class="blog">
+                    <h2 class="section-header">Our Latest Articles</h2>
+                    <ul class="blog__items">
+                        <li class="blog__item blog__item-1">
+                            <a href="#">
+                                <div class="blog__tag"><img src="../images/icons/icons.svg#tag" alt="tag">Furniture</div>
+                                <div class="blog__date">23 September 2022</div>
+                                <h3 class="blog__item-header">Begineer guide buying minimal sofa</h3>
+                                <div class="blog__link">Read more &rarr;</div>
+                            </a>
+                        </li>
+    
+                        <li class="blog__item blog__item-2">
+                            <a href="#">
+                                <div class="blog__tag"><img src="../images/icons/icons.svg#tag" alt="tag">TABLE</div>
+                                <div class="blog__date">23 September 2022</div>
+                                <h3 class="blog__item-header">Buying best minimal computer table</h3>
+                                <div class="blog__link">Read more &rarr;</div>
+                            </a>
+                        </li>
+    
+                        <li class="blog__item blog__item-3">
+                            <a href="#">
+                                <div class="blog__tag"><img src="../images/icons/icons.svg#tag" alt="tag">Bench</div>
+                                <div class="blog__date">23 September 2022</div>
+                                <h3 class="blog__item-header">How to choose best modern bench</h3>
+                                <div class="blog__link">Read more &rarr;</div>
+                            </a>
+                        </li>
+    
+                        <li class="blog__item blog__item-4">
+                            <a href="#">
+                                <div class="blog__tag"><img src="../images/icons/icons.svg#tag" alt="tag">Chair</div>
+                                <div class="blog__date">23 September 2022</div>
+                                <h3 class="blog__item-header">Best Summer Outfit Style in this Country</h3>
+                                <div class="blog__link">Read more &rarr;</div>
+                            </a>
+                        </li>
+    
+                    </ul>
+                </section>
+            </div>
+            
         </main>
     </div>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__columns">
+                <div class="footer__column footer__column-social">
+                    <a href="#" class="logo"><img src="../images/icons/icons.svg#Logo" alt="logo"></a>
+                    <p class="footer__descr">Funking is the a popular Ecommerce site. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+                    <ul class="footer__social-links">
+                        <li ><a class="footer__social-link" href="#"><img src="../images/icons/icons.svg#facebook" alt="facebook"></a></li>
+                        <li ><a class="footer__social-link" href="#"><img src="../images/icons/icons.svg#twitter" alt="twitter"></a></li>
+                        <li ><a class="footer__social-link" href="#"><img src="../images/icons/icons.svg#instagram" alt="instagram"></a></li>
+                        <li ><a class="footer__social-link" href="#"><img src="../images/icons/icons.svg#pinterest" alt="pinterest"></a></li>
+                    </ul>
+                </div>
+                <div class="footer__column">
+                    <h4 class="footer__column-header">Help</h4>
+                    <nav>
+                        <ul class="footer__column-links">
+                            <li class="footer__column-link"><a href="#">Privacy Policy</a></li>
+                            <li class="footer__column-link"><a href="#">Shipping & Delivery</a></li>
+                            <li class="footer__column-link"><a href="#">Refund Policy</a></li>
+                            <li class="footer__column-link"><a href="#">Track Your  Order</a></li>
+                        </ul>
+                    </nav>
+                </div>
     
+                <div class="footer__column">
+                    <h4 class="footer__column-header">Store</h4>
+                    <nav>
+                        <ul class="footer__column-links">
+                            <li class="footer__column-link"><a href="#">Furniture</a></li>
+                            <li class="footer__column-link"><a href="#">Tabble</a></li>
+                            <li class="footer__column-link"><a href="#">Sofa</a></li>
+                            <li class="footer__column-link"><a href="#">Other</a></li>
+                        </ul>
+                    </nav>
+                </div>
+    
+                <div class="footer__column">
+                    <h4 class="footer__column-header">Supports</h4>
+                        <ul class="footer__column-links">
+                            <li class="footer__column-link"><a href="#">Feedback</a></li>
+                            <li class="footer__column-link"><a href="#">Contact us</a></li>
+                            <li class="footer__column-link"><a href="#">Download app</a></li>
+                            <li class="footer__column-link"><a href="#">Terms conditins</a></li>
+                        </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer__divider"></div>
+        <div class="container">
+            <ul class="footer__down">
+                <li class="footer__down-item footer__down-item_copyright">© 2021 Funking - All rights reserved</li>
+                <li class="footer__down-item">Privacy</li>
+                <li class="footer__down-item">Security</li>
+                <li class="footer__down-item">Terms</li>
+            </ul>
+            
+        </div>
+    </footer>
     
     <script src="js/app.min.js"></script>
 </body>

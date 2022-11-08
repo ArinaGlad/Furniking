@@ -1,0 +1,21 @@
+.footer__column-link {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 2.22;
+    letter-spacing: 0.01em;
+    color: #555555;
+    a{
+        text-decoration: none;
+        transition: 0.5s all;
+    }
+
+    a:visited {
+        color: #555555;
+    }
+
+    a:hover {
+        opacity: 0.8;
+    }
+}
