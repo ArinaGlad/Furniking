@@ -1,0 +1,22 @@
+.primary__menu-item {
+    width: 260px;
+    min-height: 41px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 41px;
+    letter-spacing: 0.02em;
+    color: #555555;
+    padding-left: 29px;
+    background: #F7F8FA;
+    border-bottom: 0.8px solid #E3E3E3;
+
+    a {
+        text-decoration: none;
+    }
+
+    a:visited {
+        color: #555555;
+    }
+}

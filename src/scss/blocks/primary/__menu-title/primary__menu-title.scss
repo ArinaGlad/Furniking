@@ -4,10 +4,17 @@
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.9;
+    line-height: 66px;
     letter-spacing: 0.02em;
     color: #FFFFFF;
     background: #7AC751;
     height: 100%;
     text-align: center;
+    min-height: 67px;
+
+    img {
+        width: 20px;
+        height: 16px;
+        margin-right: 16px;
+    }
 }

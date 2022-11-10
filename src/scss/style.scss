@@ -7,6 +7,8 @@
 
 @import "./blocks/logo/logo";
 @import "./blocks/page/page";
+
+@import "./blocks/header/header";
 @import "./blocks/header/__top/header__top";
 @import "./blocks/header/__login/header__login";
 @import "./blocks/header/__divider/header__divider";
@@ -23,6 +25,7 @@
 @import "./blocks/form-search/__button/form-search__button";
 
 
+@import "./blocks/feature/feature";
 @import "./blocks/feature/__items/feature__items";
 @import "./blocks/feature/__item/feature__item";
 @import "./blocks/feature/__item-img/feature__item-img";
@@ -81,12 +84,31 @@
 @import "./blocks/footer/__down/footer__down";
 @import "./blocks/footer/__down-item/footer__down-item";
 
-@import "./blocks/primary/primary__titles";
+@import "./blocks/primary/primary";
+@import "./blocks/primary/__titles/primary__titles";
 @import "./blocks/primary/__menu-title/primary__menu-title";
 @import "./blocks/primary/__top/primary__top";
+@import "./blocks/primary/__menu-items/primary__menu-items";
+@import "./blocks/primary/__menu-item/primary__menu-item";
+@import "./blocks/primary/__bottom/primary__bottom";
+@import "./blocks/primary/__main/primary__main";
+@import "./blocks/primary/__text-top/primary__text-top";
+@import "./blocks/primary/__header/primary__header";
+@import "./blocks/primary/__text-descr/primary__text-descr";
+@import "./blocks/primary/__button/primary__button";
 
 @import "./blocks/navigation/navigation";
 @import "./blocks/navigation/__item/navigation__item";
+
+@import "./blocks/products/__cards/products__cards";
+@import "./blocks/products/__card-img/product__card-img";
+@import "./blocks/products/__card-chapter/product__card-chapter";
+@import "./blocks/products/__card-name/product__card-name";
+@import "./blocks/products/__card-currently-price/product__card-currently-price";
+@import "./blocks/products/__card-last-price/product__card-last-price";
+@import "./blocks/products/__cards-label/products__cards-label";
+@import "./blocks/products/__card-like/products__cards-like";
+@import "./blocks/products/__card/products__card";
 
 
 * {
@@ -135,3 +157,7 @@
     background-image: url('@img/icons.svg#twitter');
     background-size: 16px 16px;
 } */
+
+.primary__main {
+    background: url('@img/main-chair.jpg') center center/cover no-repeat;
+}

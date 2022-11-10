@@ -480,6 +480,10 @@ template {
   -moz-text-size-adjust: 100%;
 }
 
+.header {
+  padding-bottom: 25px;
+}
+
 .header__top {
   background: #7AC751;
   padding: 12.5px 0;
@@ -675,6 +679,10 @@ template {
   height: 16px;
 }
 
+.feature {
+  padding-bottom: 70px;
+}
+
 .feature__items {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -702,7 +710,7 @@ template {
       -ms-flex-align: center;
           align-items: center;
   gap: 15px;
-  min-width: 210px;
+  min-width: 215px;
 }
 
 .feature__item-img {
@@ -1291,6 +1299,10 @@ template {
       flex-basis: 892px;
 }
 
+.primary {
+  padding-bottom: 68px;
+}
+
 .primary__titles {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1302,7 +1314,6 @@ template {
       -ms-flex-align: center;
           align-items: center;
   gap: 82px;
-  min-height: 67px;
 }
 
 .primary__menu-title {
@@ -1311,16 +1322,114 @@ template {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.9;
+  line-height: 66px;
   letter-spacing: 0.02em;
   color: #FFFFFF;
   background: #7AC751;
   height: 100%;
   text-align: center;
+  min-height: 67px;
+}
+
+.primary__menu-title img {
+  width: 20px;
+  height: 16px;
+  margin-right: 16px;
 }
 
 .primary__top {
   background: #F7F8FA;
+}
+
+.primary__menu-items {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.primary__menu-item {
+  width: 260px;
+  min-height: 41px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 41px;
+  letter-spacing: 0.02em;
+  color: #555555;
+  padding-left: 29px;
+  background: #F7F8FA;
+  border-bottom: 0.8px solid #E3E3E3;
+}
+
+.primary__menu-item a {
+  text-decoration: none;
+}
+
+.primary__menu-item a:visited {
+  color: #555555;
+}
+
+.primary__bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 11px;
+}
+
+.primary__main {
+  margin: 12px 0 0 0;
+  width: 77%;
+  padding: 73px 0 0 47px;
+}
+
+.primary__text-top {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.18;
+  letter-spacing: 0.05em;
+  color: #7AC751;
+  margin: 0 0 6px 0;
+}
+
+.primary__header {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 47px;
+  color: #2F2F2F;
+  max-width: 318px;
+  margin: 0 0 27px 0;
+}
+
+.primary__text-descr {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 27px;
+  line-height: 1;
+  color: rgba(81, 81, 81, 0.71);
+  margin: 0 0 35px 0;
+}
+
+.primary__button {
+  background: #7AC751;
+  border-radius: 5px;
+  padding: 0 18px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 40px;
+  color: #FFFFFF;
+  border: none;
 }
 
 .navigation {
@@ -1334,6 +1443,9 @@ template {
       -ms-flex-align: center;
           align-items: center;
   list-style-type: none;
+  margin: 0;
+  padding: 0;
+  gap: 65px;
 }
 
 .navigation__item {
@@ -1344,6 +1456,133 @@ template {
   font-size: 14px;
   line-height: 1.2;
   color: #555555;
+}
+
+.products__cards {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 30px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.product__card-img {
+  width: 100%;
+  height: 288px;
+  display: block;
+  margin-bottom: 15px;
+}
+
+.product__card-chapter {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 130%;
+  letter-spacing: 0.008em;
+  text-transform: uppercase;
+  color: rgba(117, 117, 117, 0.71);
+  margin-bottom: 4px;
+}
+
+.product__card-name {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.005em;
+  color: #11142D;
+  max-width: 269px;
+  -o-text-overflow: ellipsis;
+     text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  margin-bottom: 13px;
+}
+
+.product__card-currently-price {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.005em;
+  color: #7AC751;
+  margin-right: 7px;
+}
+
+.product__card-last-price {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.005em;
+  text-decoration-line: line-through;
+  color: #CCCCCC;
+}
+
+.products__cards-label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 44px;
+  height: 20px;
+  background: #7AC751;
+  border-radius: 0px 0px 5px 0px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.008em;
+  color: #FFFFFF;
+  z-index: 3;
+}
+
+.products__cards-like {
+  position: absolute;
+  top: 234px;
+  right: 7px;
+  width: 38.85px;
+  height: 38.89px;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 2px 33px rgba(0, 0, 0, 0.09);
+          box-shadow: 0px 2px 33px rgba(0, 0, 0, 0.09);
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.products__cards-like img {
+  width: 20px;
+  height: 18px;
+}
+
+.products__cards-like:hover {
+  opacity: 0.8;
+}
+
+.products__card {
+  width: 267px;
+  position: relative;
 }
 
 * {
@@ -1391,6 +1630,9 @@ template {
     background-size: 16px 16px;
 } */
 
+.no-webp .primary__main {
+  background: url("../images/main-chair.jpg") center center/cover no-repeat; }
+
 .webp .offer__item-1 { background: url(../images/furniture__offer.webp) center center/cover no-repeat; }
 
 .webp .offer__item-2 { background: url(../images/offer-2.webp) center center/cover no-repeat; }
@@ -1408,3 +1650,5 @@ template {
 .webp .blog__item-3 { background: url(../images/blog-3.webp) center center/cover no-repeat; }
 
 .webp .blog__item-4 { background: url(../images/blog-4.webp) center center/cover no-repeat; }
+
+.webp .primary__main { background: url(../images/main-chair.webp) center center/cover no-repeat; }
